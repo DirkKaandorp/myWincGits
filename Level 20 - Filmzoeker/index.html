@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link rel="stylesheet" href="dist/styles.css" />
+
+    <script src="dist/movies.dev.js" defer></script>
+    <script src="dist/script.dev.js" defer></script>
+  </head>
+  <body>
+    <header>MovieZoeker</header>
+    <div class="hoofdcontainer">
+      <nav id="nav-menu">
+        <div>
+          <input
+            class="filter-btn"
+            type="radio"
+            id="newest-films"
+            name="filterknop"
+            value="newest"
+          />
+          <label>Nieuwste</label>
+
+          <input
+            class="filter-btn"
+            type="radio"
+            id="avengers-films"
+            name="filterknop"
+            value="avengers"
+          />
+          <label>Avengers</label>
+
+          <input
+            class="filter-btn"
+            type="radio"
+            id="x-men-films"
+            name="filterknop"
+            value="x-men"
+          />
+          <label>X-men</label>
+
+          <input
+            class="filter-btn"
+            type="radio"
+            id="princess-films"
+            name="filterknop"
+            value="princess"
+          />
+          <label>Princess</label>
+
+          <input
+            class="filter-btn"
+            type="radio"
+            id="batman-films"
+            name="filterknop"
+            value="batman"
+          />
+          <label>Batman</label>
+        </div>
+      </nav>
+      <main>
+        <ul id="movie-list"></ul>
+      </main>
+    </div>
+    <footer>
+      Eindopdracht level 20 - JavaScript en DOM-manipulatie (Dirk Kaandorp,
+      okt/nov 2020)
+    </footer>
+  </body>
+</html>
