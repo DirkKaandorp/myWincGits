@@ -1,3 +1,1 @@
-async function haalDataOp() {
-  await getData();
-}
+console.log(getMoviesTop20());
