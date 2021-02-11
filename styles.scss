@@ -1,0 +1,52 @@
+.actionmovielist > li,
+.movielist > li,
+.listOf1975Movies > li {
+  width: 300px;
+  padding: 5px;
+  margin: 3px;
+}
+
+.actionmovielist > li {
+  background: lightgreen;
+  color: black;
+}
+
+.movielist > li {
+  background: lightslategrey;
+  color: black;
+}
+
+.listOf1975Movies > li {
+  background: pink;
+  color: brown;
+}
+
+#favMovie {
+  grid-area: a;
+}
+
+#top10 {
+  grid-area: b;
+}
+
+#top10action {
+  grid-area: c;
+}
+
+#movies1975 {
+  grid-area: d;
+}
+
+.container {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  grid-template-rows: 1fr auto;
+  grid-template-areas: "a a a" "b c d";
+  grid-gap: 10px;
+}
+
+h3 {
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 5px;
+}
